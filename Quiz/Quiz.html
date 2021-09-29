@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle|Quiz</title>
+    <link rel="stylesheet" href="./Quiz.css">
+</head>
+
+<body>
+    
+    <section class="nav">
+        
+        <h1> Wlecome</h1>
+
+        
+
+        <ul class="nav-links">
+           <li class="list-inline"><a href="../index.html"><h3>Check Triangle</h3></a></li>
+           <li class="list-inline"><a href="Quiz.html"><h3>Quiz</h3></a></li>
+           <li class="list-inline"><a href="../Hypo/Hypo.html"><h3>Hypotenuse</h3></a></li>
+           <li class="list-inline"><a href="../triArea/triArea.html"><h3>Area</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="header">
+        <h1>Triangle Quiz </h1>
+        <h4>Let's try this Quiz</h4>
+    </section>
+
+    <form action="" class="quiz">
+
+        <section class="question1">
+            <p class="ques">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+
+            <input type="radio" name="q1" id="q1-op1" value="45">
+            <label for="q1-op1">45<sup>o</sup></label>
+
+            <input type="radio" name="q1" id="q1-op2" value="90">
+            <label for="q1-op2">90<sup>o</sup></label>
+
+            <input type="radio" name="q1" id="q1-op3" value="60">
+            <label for="q1-op3">60<sup>o</sup></label>
+        </section>
+
+        <section class="question2">
+            <p class="ques">If a triangle has an angle of 90 degrees, what is it called?</p>
+            <input type="radio" name="q2" id="q2-op1" value="Obtuse">
+            <label for="q2-op1">Obtuse</label>
+
+            <input type="radio" name="q2" id="q2-op2" value="Acute">
+            <label for="q2-op2">Acute</label>
+
+            <input type="radio" name="q2" id="q2-op3" value="Right Angled">
+            <label for="q2-op3">Right Angled</label>
+        </section>
+
+    </form>
+
+    <button type="submit" class="formSubmit">See Score</button>
+
+    <h2 class="outputMsg"></h2>
+
+    <script src="./Quiz.js"></script>
+</body>
+
+</html>

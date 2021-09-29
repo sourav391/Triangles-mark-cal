@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Stick+No+Bills:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+*:focus {
+    outline:none;
+}
+
+:root {
+    --primary-color : #fdc93b;
+    --secondary-color : #8d6a8a;
+}
+
+body {
+    background-color: var(--secondary-color);
+    font-family: 'Lobster', cursive;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.nav {
+    background-color: var(--primary-color);
+    height: 10rem;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    
+}
+
+
+.nav-links {
+    display: flex;
+    margin: 0rem 30rem;
+    padding-left: 40rem;
+    
+
+    
+}
+
+.list-inline {
+    list-style: none;
+    margin: 1.3rem;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+
+a:hover {
+    color : var(--secondary-color);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.header {
+    text-align: center;
+    margin: 2.5rem;
+    font-size: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.quiz {
+    text-align: center;
+    width: 100%;
+}
+
+.question1 {
+    border: 1px solid var(--primary-color);
+    border-radius: .9rem;
+    border-width: .3rem;
+    width: 50%;
+    margin: 0rem 30rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.question2 {
+    border: 1px solid var(--primary-color);
+    border-radius: .9rem;
+    border-width: .3rem;
+    width: 50%;
+    margin: 1.5rem 30rem;
+    padding: 1rem;
+}
+
+.ques {
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+
+input {
+    margin: 0rem .2rem;
+}
+
+.formSubmit {
+    margin: 1rem 55rem;
+    border: none;
+    border-radius: .6rem;
+    height: 2.5rem;
+    width: 6.5rem;
+    background-color: var(--primary-color);
+    color : white;
+    font-size: 1rem;
+}
+
+.formSubmit:hover {
+    font-weight: bold;
+}
+
+.outputMsg {
+    width: 15rem;
+    margin: 1rem 40rem;
+}
