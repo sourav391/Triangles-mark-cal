@@ -4,3 +4,5 @@
  2) play quiz
  3) calculate hypotenuse of triangle
  4) Claculate area of trinagle
+
+hosted link : https://trianglefunsou.netlify.app/index.html
