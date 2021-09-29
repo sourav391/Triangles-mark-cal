@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Stick+No+Bills:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+*:focus {
+    outline: none;
+}
+
+:root {
+    --primary-color: #fdc93b;
+    --secondary-color: #8d6a8a;
+    --formula-color: #3b3934;
+}
+
+body {
+    background-color: var(--secondary-color);
+    font-family: 'Lobster', cursive;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.nav {
+    background-color: var(--primary-color);
+    height: 10rem;
+    padding-left: 10rem;
+    padding-top: 1rem;
+}
+
+.nav-links {
+    display: flex;
+    margin: 0rem 30rem;
+    padding-left: 40rem;
+}
+
+.list-inline {
+    list-style: none;
+    margin: 1.3rem;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+
+a:hover {
+    color: var(--secondary-color);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.formula {
+    width: 30%;
+    text-align: center;
+    margin: 1.2rem 40rem;
+    margin-bottom: 2.5rem;
+    border: 1px dashed var(--formula-color);
+    border-width: .15rem;
+    padding: .4rem;
+}
+
+h4 {
+    margin: .5rem;
+    font-size: 1.2rem;
+}
+
+label,
+button {
+    display: block;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+.label {
+    margin: .5rem;
+}
+
+.inp {
+    height: 1.8rem;
+    width: 30%;
+    padding: 0.2rem 1rem;
+    margin-bottom: 1.3rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.calArea {
+    margin: 1rem 55rem;
+    border: none;
+    border-radius: .6rem;
+    height: 3.2rem;
+    width: 9rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+}
+
+.calArea:hover {
+    font-weight: bold;
+}
+
+.outputMsg {
+    margin: 2rem;
+}
